@@ -1,0 +1,226 @@
+#container{
+  display: flex;
+  justify-content: center;
+  background-image:url(votebg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter:unset ;
+  padding: 10px;
+  height: 100vh;
+}
+.PartyName{
+  width: 40%;
+}
+.Partyid{
+  width: 30%;
+}
+/* General button styling */
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Add space around buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+  display: inline-block; /* Conventional button display */
+  width: 100%; /* Fixed width */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+/* Focus effect */
+button:focus {
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 5px #4CAF50; /* Add shadow */
+}
+
+/* Specific class styling */
+button.bjp {
+  background-color: #ff5722; /* Orange */
+}
+
+button.rjd {
+  background-color: #ffeb3b; /* Yellow */
+  color: black; /* Black text for contrast */
+}
+
+button.bsp {
+  background-color: #2196f3; /* Blue */
+}
+
+button.special, button.special1 {
+  background-color: #9c27b0; /* Purple */
+  font-weight: bold; /* Bold text */
+}
+
+/* Styling vote count buttons */
+#bjp, #rjd, #bsp, #special, #special1 {
+  background-color: #f0f0f0; 
+  color: black; 
+  border: 1px solid #ccc;
+  padding: 10px 20px; 
+  margin: 5px 2px; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  height: 46px;
+  margin-left: 5px;
+}
+.container{
+  height: 50vh;
+  width: 98%;
+  margin: 1%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+/* Reset some default styles */
+
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 15px,51px,51px,51px chartreuse;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.logo img{
+  width: 20%;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links ul li {
+  margin: 0 15px;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links ul li a:hover {
+  color: #ff6347;
+}
+
+/* Hamburger menu styling */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-links ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #333;
+  }
+
+  .nav-links ul li {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #ff6347;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+

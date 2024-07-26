@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voting System</title>
+  <link rel="stylesheet" href="IBM.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo"><img
+        src="https://play-lh.googleusercontent.com/3APi4HdWb0_rhnhAEoyJEYfSemXW9cNbA2VdOCSN7L6wgdjC_oTxLphER647R9PnSCkV"
+        alt=""></div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+  <div id="container">
+    <div class="PartyName">
+      <button class="bjp" onclick="castvote(0)">BJP</button>
+      <button class="rjd" onclick="castvote(1)">RJD</button>
+      <button class="bsp" onclick="castvote(2)">BSP</button>
+      <button class="special" onclick="castvote(3)">NOTA</button>
+      <button onclick="countvote()"> Count Vote</button>
+    </div>
+
+    <div class="Partyid">
+      <button id="bjp">0</button>
+      <button id="rjd">0</button>
+      <button id="bsp">0</button>
+      <button id="special">0</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About</h2>
+        <p>This is a voting system website where you can cast your vote for different parties.</p>
+      </div>
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h2>Contact</h2>
+        <p>Email:pawanpathak68246@gmail.com</p>
+        <p>Phone: 7091285543</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 Voting System | Designed by Pawan 
+    </div>
+  </footer>
+  <script src="IBM.JS"></script>
+</body>
+
+</html>
